@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   kube-keepalived-vip:
   - apiVersion: v1
-    created: 2018-01-28T20:13:49.197163504Z
+    created: 2018-01-28T20:14:27.504191178Z
     description: Helm chart to install keepalive-vip on the cluster.
     digest: 46a8062f60dcd79073e973fddeb7eac1c19c1775fdf17468a1b12d3f5e95b84b
     name: kube-keepalived-vip
@@ -11,4 +11,17 @@ entries:
     urls:
     - kube-keepalived-vip-0.1.0.tgz
     version: 0.1.0
-generated: 2018-01-28T20:13:49.196882386Z
+  kube-keepalived-vip-cloud-provider:
+  - apiVersion: v1
+    created: 2018-01-28T20:14:27.504364143Z
+    description: Keepalived cloud provider chart. Enable LoadBalancer Service on your
+      local or onprem cluster.
+    digest: ef7287bba27a2278da22aca9443720b33418f09546e124c5f7a83df4d9c9aa2c
+    name: kube-keepalived-vip-cloud-provider
+    sources:
+    - https://github.com/aledbf/kube-keepalived-vip
+    - https://github.com/munnerz/keepalived-cloud-provider
+    urls:
+    - kube-keepalived-vip-cloud-provider-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-01-28T20:14:27.503899515Z
