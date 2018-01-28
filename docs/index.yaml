@@ -2,14 +2,13 @@ apiVersion: v1
 entries:
   kube-keepalived-vip:
   - apiVersion: v1
-    created: 2018-01-28T18:29:38.497770926Z
-    description: A Helm chart for Kubernetes
-    digest: 70f66bb805ded509d852d8d4f30aee7fbfade422aa1893e07507a03706770f2c
+    created: 2018-01-28T20:13:49.197163504Z
+    description: Helm chart to install keepalive-vip on the cluster.
+    digest: 46a8062f60dcd79073e973fddeb7eac1c19c1775fdf17468a1b12d3f5e95b84b
     name: kube-keepalived-vip
     sources:
     - https://github.com/aledbf/kube-keepalived-vip
-    - https://github.com/munnerz/keepalived-cloud-provider
     urls:
     - kube-keepalived-vip-0.1.0.tgz
     version: 0.1.0
-generated: 2018-01-28T18:29:38.497484509Z
+generated: 2018-01-28T20:13:49.196882386Z
