@@ -5,9 +5,9 @@ This repository contains helm charts that ether are modifications of the origina
 To start using this charts you need to add the helm chart repository url.
 
 ```
-helm repo add coolrepo https://omar-nahhas.github.io/helm-charts/
+helm repo add foo https://omar-nahhas.github.io/helm-charts
 helm repo update
-helm install coolrepo/coolchart
+helm install foo/coolchart
 ```
 
 ## acknowledgement 
