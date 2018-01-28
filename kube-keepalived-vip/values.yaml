@@ -1,0 +1,7 @@
+#Configuration:
+#  Services:
+#   - Vip: 192.168.99.200
+#     ServiceNamespace: kube-system
+#     ServiceName: registry
+#LoadBalancers:
+#  CIDR: 192.168.77.128/25     

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vip-configmap
+  namespace: kube-system 
+data:
+{{- if .Values.Configuration.Services }}
+  {{- range .Values.Configuration.Services }}
+  {{ .Vip | lower }}: {{ .ServiceNamespace }}/{{ .ServiceName }}
+  {{- end }}
+{{- end }}
