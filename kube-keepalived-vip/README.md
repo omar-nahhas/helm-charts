@@ -43,3 +43,11 @@ LoadBalancers:
 ```
 helm install kube-keepalived-vip -f values.yaml
 ```
+
+##### Alternatively
+This chart is hosted on a GitHub Pages backed helm repository (sourced from this especific repo), so if you could install it from it too.
+```
+helm repo add foo https://omar-nahhas.github.io/helm-charts
+helm repo update
+helm install foo/kube-keepalived-vip -f values.yaml
+```
