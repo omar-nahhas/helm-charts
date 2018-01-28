@@ -1,0 +1,7 @@
+apiVersion: v1
+description: Keepalived cloud provider chart. Enable LoadBalancer Service on your local or onprem cluster.
+name: kube-keepalived-vip-cloud-provider
+version: 0.1.0
+sources:
+- https://github.com/aledbf/kube-keepalived-vip
+- https://github.com/munnerz/keepalived-cloud-provider
